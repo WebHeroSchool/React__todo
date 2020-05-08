@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import count from './numbers.js';
+import {lenght} from './numbers.js';
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>Hello World!</p>
+        Общая длина: {count * lenght}
         <a
           className="App-link"
           href="https://reactjs.org"
